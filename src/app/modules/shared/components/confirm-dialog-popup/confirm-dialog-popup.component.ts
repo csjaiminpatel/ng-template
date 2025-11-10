@@ -4,11 +4,10 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-confirm-dialog-popup',
-  standalone: true,
-  imports: [TranslateModule],
-  templateUrl: './confirm-dialog-popup.component.html',
-  styleUrl: './confirm-dialog-popup.component.scss'
+    selector: 'app-confirm-dialog-popup',
+    imports: [TranslateModule],
+    templateUrl: './confirm-dialog-popup.component.html',
+    styleUrl: './confirm-dialog-popup.component.scss'
 })
 export class ConfirmDialogPopupComponent implements OnInit, OnDestroy {
 

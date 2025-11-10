@@ -11,11 +11,10 @@ import { NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 import { ConfirmDialogPopupComponent } from '../../../shared/components/confirm-dialog-popup/confirm-dialog-popup.component';
 import { CommonService } from '../../../shared/services/common.service';
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, SideBarComponent, CommonModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+    selector: 'app-home',
+    imports: [RouterOutlet, FooterComponent, HeaderComponent, SideBarComponent, CommonModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnDestroy {
 

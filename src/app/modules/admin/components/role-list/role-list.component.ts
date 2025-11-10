@@ -12,11 +12,10 @@ import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive'
 import { ColumnSorterComponent } from '../../../shared/components/column-sorter/column-sorter.component';
 
 @Component({
-  selector: 'app-role-list',
-  standalone: true,
-  imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule,NgbTooltip,SvgIconDirective, ColumnSorterComponent],
-  templateUrl: './role-list.component.html',
-  styleUrl: './role-list.component.scss'
+    selector: 'app-role-list',
+    imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterComponent],
+    templateUrl: './role-list.component.html',
+    styleUrl: './role-list.component.scss'
 })
 export class RoleListComponent extends BaseListComponent<RoleListDto> implements OnInit, OnDestroy {
 

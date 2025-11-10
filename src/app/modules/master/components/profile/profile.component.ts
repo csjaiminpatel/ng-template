@@ -15,11 +15,10 @@ import { LoadingComponent } from '../../../shared/components/loading/loading.com
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-profile',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
-  templateUrl: './profile.component.html',
-  styleUrl: './profile.component.scss'
+    selector: 'app-profile',
+    imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
+    templateUrl: './profile.component.html',
+    styleUrl: './profile.component.scss'
 })
 export class ProfileComponent extends BaseDetailComponent<UserProfileDto> implements OnInit, OnDestroy {
 

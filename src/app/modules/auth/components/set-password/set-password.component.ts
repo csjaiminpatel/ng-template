@@ -12,11 +12,10 @@ import { CommonModule } from '@angular/common';
 import { NgbTooltip } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-set-password',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective,CommonModule,NgbTooltip],
-  templateUrl: './set-password.component.html',
-  styleUrl: './set-password.component.scss'
+    selector: 'app-set-password',
+    imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective, CommonModule, NgbTooltip],
+    templateUrl: './set-password.component.html',
+    styleUrl: './set-password.component.scss'
 })
 export class SetPasswordComponent implements OnInit, OnDestroy {
 

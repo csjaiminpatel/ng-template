@@ -12,11 +12,10 @@ import { NgxCaptchaModule } from 'ngx-captcha';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-forgot-password',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective, NgxCaptchaModule,CommonModule],
-  templateUrl: './forgot-password.component.html',
-  styleUrl: './forgot-password.component.scss'
+    selector: 'app-forgot-password',
+    imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective, NgxCaptchaModule, CommonModule],
+    templateUrl: './forgot-password.component.html',
+    styleUrl: './forgot-password.component.scss'
 })
 export class ForgotPasswordComponent implements OnInit, OnDestroy {
 

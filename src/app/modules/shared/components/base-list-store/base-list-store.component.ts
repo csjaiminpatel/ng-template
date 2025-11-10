@@ -12,11 +12,10 @@ import { IBaseList } from '../../models/common-models';
 import { ConfirmDialogPopupComponent } from '../confirm-dialog-popup/confirm-dialog-popup.component';
 
 @Component({
-  selector: 'app-base-list-store',
-  standalone: true,
-  imports: [],
-  templateUrl: './base-list-store.component.html',
-  styleUrl: './base-list-store.component.scss'
+    selector: 'app-base-list-store',
+    imports: [],
+    templateUrl: './base-list-store.component.html',
+    styleUrl: './base-list-store.component.scss'
 })
 export class BaseListStoreComponent<T extends BaseDto> extends BaseComponent implements OnInit, OnDestroy {
 

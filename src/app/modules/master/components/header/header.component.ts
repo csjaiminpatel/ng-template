@@ -9,11 +9,10 @@ import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive'
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [SvgIconDirective,TranslateModule,NgbTooltip,NgbPopoverModule ],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+    selector: 'app-header',
+    imports: [SvgIconDirective, TranslateModule, NgbTooltip, NgbPopoverModule],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit, OnDestroy {
 

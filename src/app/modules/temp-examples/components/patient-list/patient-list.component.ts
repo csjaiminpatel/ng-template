@@ -24,11 +24,10 @@ import { AllocationGroupPipe } from '../../../shared/pipes/allocation-group.pipe
 import { NgSelectModule } from '@ng-select/ng-select';
 
 @Component({
-  selector: 'app-patient-list',
-  standalone: true,
-  imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterComponent, PatientStatusPipe, AllocationGroupPipe, NgSelectModule],
-  templateUrl: './patient-list.component.html',
-  styleUrl: './patient-list.component.scss'
+    selector: 'app-patient-list',
+    imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterComponent, PatientStatusPipe, AllocationGroupPipe, NgSelectModule],
+    templateUrl: './patient-list.component.html',
+    styleUrl: './patient-list.component.scss'
 })
 export class PatientListComponent extends BaseListComponent<PatientListDto> implements OnInit, OnDestroy {
 

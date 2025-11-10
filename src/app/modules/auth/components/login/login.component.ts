@@ -12,11 +12,10 @@ import { CommonModule } from '@angular/common';
 import { NgbTooltip } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective,CommonModule,NgbTooltip],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+    selector: 'app-login',
+    imports: [ReactiveFormsModule, RouterLink, TranslateModule, SvgIconDirective, CommonModule, NgbTooltip],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.scss'
 })
 export class LoginComponent extends BaseComponent implements OnInit, OnDestroy {
 

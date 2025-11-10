@@ -18,11 +18,10 @@ import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive'
 
 
 @Component({
-  selector: 'app-mail-setting',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, SvgIconDirective, CommonModule, NgbTooltip],
-  templateUrl: './mail-setting.component.html',
-  styleUrl: './mail-setting.component.scss'
+    selector: 'app-mail-setting',
+    imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, SvgIconDirective, CommonModule, NgbTooltip],
+    templateUrl: './mail-setting.component.html',
+    styleUrl: './mail-setting.component.scss'
 })
 export class MailSettingComponent extends BaseDetailComponent<SettingDto<SMTPSetting>> implements OnInit, OnDestroy {
 

@@ -9,11 +9,10 @@ import { NavigationService } from '../../../shared/services/navigation.service';
 
 
 @Component({
-  selector: 'app-side-bar',
-  standalone: true,
-  imports: [RouterLink, RouterLinkActive, CommonModule, TranslateModule,NgbNavModule],
-  templateUrl: './side-bar.component.html',
-  styleUrl: './side-bar.component.scss'
+    selector: 'app-side-bar',
+    imports: [RouterLink, RouterLinkActive, CommonModule, TranslateModule, NgbNavModule],
+    templateUrl: './side-bar.component.html',
+    styleUrl: './side-bar.component.scss'
 })
 export class SideBarComponent implements OnInit {
   menuList: MenuItem[] = [];

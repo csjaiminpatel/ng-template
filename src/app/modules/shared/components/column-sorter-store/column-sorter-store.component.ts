@@ -3,11 +3,10 @@ import { EnumTypeOfProperty, SortingModelForStore } from '../../models/table-con
 import { ConstString } from '../../models/const-string';
 
 @Component({
-  selector: 'app-column-sorter-store',
-  standalone: true,
-  imports: [],
-  templateUrl: './column-sorter-store.component.html',
-  styleUrl: './column-sorter-store.component.scss'
+    selector: 'app-column-sorter-store',
+    imports: [],
+    templateUrl: './column-sorter-store.component.html',
+    styleUrl: './column-sorter-store.component.scss'
 })
 export class ColumnSorterStoreComponent {
 

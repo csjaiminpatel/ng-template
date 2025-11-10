@@ -18,11 +18,10 @@ import { ErrorDetailComponent } from '../../../shared/components/error-detail/er
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-role-detail',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
-  templateUrl: './role-detail.component.html',
-  styleUrl: './role-detail.component.scss'
+    selector: 'app-role-detail',
+    imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
+    templateUrl: './role-detail.component.html',
+    styleUrl: './role-detail.component.scss'
 })
 export class RoleDetailComponent extends BaseDetailComponent<RoleDto> implements OnInit, OnDestroy {
 

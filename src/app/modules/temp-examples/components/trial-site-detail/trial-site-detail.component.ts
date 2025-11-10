@@ -15,11 +15,10 @@ import { ErrorDetailComponent } from '../../../shared/components/error-detail/er
 import { LoadingComponent } from '../../../shared/components/loading/loading.component';
 
 @Component({
-  selector: 'app-trial-site-detail',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
-  templateUrl: './trial-site-detail.component.html',
-  styleUrl: './trial-site-detail.component.scss'
+    selector: 'app-trial-site-detail',
+    imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
+    templateUrl: './trial-site-detail.component.html',
+    styleUrl: './trial-site-detail.component.scss'
 })
 export class TrialSiteDetailComponent extends BaseDetailComponent<TrialSiteDto> implements OnInit, OnDestroy {
 

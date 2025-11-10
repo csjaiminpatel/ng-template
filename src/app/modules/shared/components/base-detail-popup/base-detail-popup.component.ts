@@ -11,11 +11,10 @@ import { plainToClassFromExist } from 'class-transformer';
 import { deepCompare } from '../../models/helper';
 
 @Component({
-  selector: 'app-base-detail-popup',
-  standalone: true,
-  imports: [],
-  templateUrl: './base-detail-popup.component.html',
-  styleUrl: './base-detail-popup.component.scss'
+    selector: 'app-base-detail-popup',
+    imports: [],
+    templateUrl: './base-detail-popup.component.html',
+    styleUrl: './base-detail-popup.component.scss'
 })
 export class BaseDetailPopupComponent<T extends BaseDto> extends BaseComponent implements OnInit, OnDestroy {
   submitted: boolean = false;

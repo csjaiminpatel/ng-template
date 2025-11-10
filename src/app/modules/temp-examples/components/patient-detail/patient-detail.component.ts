@@ -23,11 +23,10 @@ import { LoadingComponent } from '../../../shared/components/loading/loading.com
 import { FocusFirstInvalidFieldDirective } from '../../../shared/directives/focus-first-invalid-field.directive';
 
 @Component({
-  selector: 'app-patient-detail',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
-  templateUrl: './patient-detail.component.html',
-  styleUrl: './patient-detail.component.scss'
+    selector: 'app-patient-detail',
+    imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
+    templateUrl: './patient-detail.component.html',
+    styleUrl: './patient-detail.component.scss'
 })
 export class PatientDetailComponent extends BaseDetailComponent<PatientDto> implements OnInit, OnDestroy {
 

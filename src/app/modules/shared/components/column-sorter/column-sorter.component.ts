@@ -3,11 +3,10 @@ import { SortingModel } from '../../models/table-conf';
 import { ConstString } from '../../models/const-string';
 
 @Component({
-  selector: 'app-column-sorter',
-  standalone: true,
-  imports: [],
-  templateUrl: './column-sorter.component.html',
-  styleUrl: './column-sorter.component.scss'
+    selector: 'app-column-sorter',
+    imports: [],
+    templateUrl: './column-sorter.component.html',
+    styleUrl: './column-sorter.component.scss'
 })
 export class ColumnSorterComponent {
 

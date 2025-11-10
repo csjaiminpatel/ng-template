@@ -14,11 +14,10 @@ import { getTrialSiteDataStatus, getTrialSiteErrorMessage, getTrialSiteList } fr
 import { instanceToInstance } from 'class-transformer';
 
 @Component({
-  selector: 'app-trial-site-list-store',
-  standalone: true,
-  imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterStoreComponent],
-  templateUrl: './trial-site-list-store.component.html',
-  styleUrl: './trial-site-list-store.component.scss'
+    selector: 'app-trial-site-list-store',
+    imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterStoreComponent],
+    templateUrl: './trial-site-list-store.component.html',
+    styleUrl: './trial-site-list-store.component.scss'
 })
 export class TrialSiteListStoreComponent extends BaseListStoreComponent<TrialSiteDto> {
 

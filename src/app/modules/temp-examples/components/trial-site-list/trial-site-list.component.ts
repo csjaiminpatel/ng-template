@@ -12,11 +12,10 @@ import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive'
 import { ColumnSorterComponent } from '../../../shared/components/column-sorter/column-sorter.component';
 
 @Component({
-  selector: 'app-trial-site-list',
-  standalone: true,
-  imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterComponent],
-  templateUrl: './trial-site-list.component.html',
-  styleUrl: './trial-site-list.component.scss'
+    selector: 'app-trial-site-list',
+    imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective, ColumnSorterComponent],
+    templateUrl: './trial-site-list.component.html',
+    styleUrl: './trial-site-list.component.scss'
 })
 export class TrialSiteListComponent extends BaseListComponent<TrialSiteListDto> implements OnInit, OnDestroy {
 

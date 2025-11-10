@@ -12,11 +12,10 @@ import { UserWithPermissionsDto } from '../../../admin/models/user-dto';
 import { DateTimeHelper } from '../../models/date-time-helper';
 
 @Component({
-  selector: 'app-base',
-  standalone: true,
-  imports: [],
-  templateUrl: './base.component.html',
-  styleUrl: './base.component.scss'
+    selector: 'app-base',
+    imports: [],
+    templateUrl: './base.component.html',
+    styleUrl: './base.component.scss'
 })
 export class BaseComponent implements OnInit, OnDestroy  {
 

@@ -6,11 +6,10 @@ import { NgbAlert } from '@ng-bootstrap/ng-bootstrap';
 import { SvgIconDirective } from '../../directives/svg-icon.directive';
 
 @Component({
-  selector: 'app-error-detail',
-  standalone: true,
-  imports: [CommonModule,NgbAlert,SvgIconDirective],
-  templateUrl: './error-detail.component.html',
-  styleUrl: './error-detail.component.scss'
+    selector: 'app-error-detail',
+    imports: [CommonModule, NgbAlert, SvgIconDirective],
+    templateUrl: './error-detail.component.html',
+    styleUrl: './error-detail.component.scss'
 })
 export class ErrorDetailComponent implements OnInit, OnDestroy {
 

@@ -15,11 +15,10 @@ import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive'
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-change-password',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, NgbTooltip, SvgIconDirective, CommonModule],
-  templateUrl: './change-password.component.html',
-  styleUrl: './change-password.component.scss'
+    selector: 'app-change-password',
+    imports: [ReactiveFormsModule, TranslateModule, FocusFirstInvalidFieldDirective, NgbTooltip, SvgIconDirective, CommonModule],
+    templateUrl: './change-password.component.html',
+    styleUrl: './change-password.component.scss'
 })
 export class ChangePasswordComponent extends BaseDetailPopupComponent<ChangePasswordDto> implements OnInit, OnDestroy {
 

@@ -11,11 +11,10 @@ import { deepCompare } from '../../models/helper';
 import { plainToClassFromExist } from 'class-transformer';
 
 @Component({
-  selector: 'app-base-detail',
-  standalone: true,
-  imports: [],
-  templateUrl: './base-detail.component.html',
-  styleUrl: './base-detail.component.scss'
+    selector: 'app-base-detail',
+    imports: [],
+    templateUrl: './base-detail.component.html',
+    styleUrl: './base-detail.component.scss'
 })
 export class BaseDetailComponent<T extends BaseDto> extends BaseComponent implements OnInit, OnDestroy {
   submitted: boolean = false;

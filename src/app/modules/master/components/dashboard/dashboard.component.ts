@@ -7,11 +7,10 @@ import { NgbAlert } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-dashboard',
-  standalone: true,
-  imports: [TranslateModule,NgbAlert],
-  templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.scss'
+    selector: 'app-dashboard',
+    imports: [TranslateModule, NgbAlert],
+    templateUrl: './dashboard.component.html',
+    styleUrl: './dashboard.component.scss'
 })
 export class DashboardComponent implements OnInit, OnDestroy {
 

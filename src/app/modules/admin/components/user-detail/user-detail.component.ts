@@ -18,11 +18,10 @@ import { ErrorDetailComponent } from '../../../shared/components/error-detail/er
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-user-detail',
-  standalone: true,
-  imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
-  templateUrl: './user-detail.component.html',
-  styleUrl: './user-detail.component.scss'
+    selector: 'app-user-detail',
+    imports: [ReactiveFormsModule, TranslateModule, NgSelectModule, FocusFirstInvalidFieldDirective, ErrorDetailComponent, LoadingComponent, CommonModule],
+    templateUrl: './user-detail.component.html',
+    styleUrl: './user-detail.component.scss'
 })
 export class UserDetailComponent extends BaseDetailComponent<UserDto> implements OnInit, OnDestroy {
 

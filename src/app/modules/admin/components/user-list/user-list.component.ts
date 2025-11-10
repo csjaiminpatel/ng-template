@@ -12,11 +12,10 @@ import { ApiError, ApiOkResponse } from '../../../shared/models/api-response';
 import { SvgIconDirective } from '../../../shared/directives/svg-icon.directive';
 
 @Component({
-  selector: 'app-user-list',
-  standalone: true,
-  imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule,NgbTooltip,SvgIconDirective],
-  templateUrl: './user-list.component.html',
-  styleUrl: './user-list.component.scss'
+    selector: 'app-user-list',
+    imports: [TranslateModule, LoadingComponent, FormsModule, NgbPaginationModule, NgbTooltip, SvgIconDirective],
+    templateUrl: './user-list.component.html',
+    styleUrl: './user-list.component.scss'
 })
 export class UserListComponent extends BaseListComponent<UserListDto> implements OnInit, OnDestroy {
 

@@ -13,11 +13,10 @@ import { ConfirmDialogPopupComponent } from '../confirm-dialog-popup/confirm-dia
 import { ListHelper } from '../../models/list-helper';
 
 @Component({
-  selector: 'app-base-list',
-  standalone: true,
-  imports: [],
-  templateUrl: './base-list.component.html',
-  styleUrl: './base-list.component.scss'
+    selector: 'app-base-list',
+    imports: [],
+    templateUrl: './base-list.component.html',
+    styleUrl: './base-list.component.scss'
 })
 export class BaseListComponent<T extends BaseDto> extends BaseComponent implements OnInit, OnDestroy {
 
